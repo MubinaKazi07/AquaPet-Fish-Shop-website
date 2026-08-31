@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding-top:80px;
+}
+
+#root {
+  width: 100%;
+  max-width:100%;
+  margin:0 auto;
+  padding:0 25px;
+}
+
+:root { --aqua-950: #063f63; --aqua-800: #087d8b; --aqua-600: #14a69b; --aqua-100: #e6f7f5; --ink: #16324f; --muted: #6e8493; --surface: #fff; --line: #dcebed; }
+body { background: #f7fbfc; color: var(--ink); }
+.site-section { padding: 5rem 0; }
+.section-kicker { color: var(--aqua-800); font-size: .75rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+.section-heading { color: var(--ink); font-weight: 800; letter-spacing: -.04em; }
+.aqua-btn { border: 0; border-radius: 12px; background: linear-gradient(135deg, var(--aqua-800), var(--aqua-600)); color: #fff; font-weight: 700; padding: .8rem 1.15rem; text-decoration: none; }
+.aqua-btn:hover { color: #fff; background: var(--aqua-950); }
+.aqua-card { height: 100%; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; box-shadow: 0 12px 28px rgba(14, 71, 93, .06); }
+.navbar { border-bottom: 1px solid #dcebed; box-shadow: 0 4px 18px rgba(14, 71, 93, .05); }
+.navbar .nav-link { color: #4b6676; font-weight: 650; }
+.navbar .nav-link:hover, .navbar .nav-link.active { color: var(--aqua-800); }
+.aquapet-logo { width: 48px; height: 48px; object-fit: contain; }
+.aquapet-wordmark { display: grid; line-height: 1; color: var(--aqua-950); letter-spacing: -.02em; }
+.aquapet-wordmark strong { font-size: 1.1rem; }
+.aquapet-wordmark small { margin-top: .2rem; color: var(--aqua-800); font-size: .64rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.nav-action-btn { display: inline-flex; align-items: center; gap: .42rem; min-height: 38px; padding: .45rem .7rem; border: 1px solid #b9dddd; border-radius: 10px; color: var(--aqua-800); font-size: .86rem; font-weight: 700; text-decoration: none; }
+.nav-action-btn:hover { color: #fff; border-color: var(--aqua-800); background: var(--aqua-800); }
+.nav-add-btn { background: #eef9f8; }
+.nav-cart-btn { background: #fff; }
+.btn-primary { border-color: var(--aqua-800); background-color: var(--aqua-800); }
+.btn-primary:hover, .btn-primary:focus { border-color: var(--aqua-950); background-color: var(--aqua-950); }
+.btn-outline-primary { border-color: var(--aqua-800); color: var(--aqua-800); }
+.btn-outline-primary:hover { border-color: var(--aqua-800); background-color: var(--aqua-800); }
+.text-primary { color: var(--aqua-800) !important; }
+.aquapet-footer { margin: 2rem -25px 0; color: #d7eff0; background: linear-gradient(135deg, #063f63, #075e70); }
+.footer-brand { display: inline-flex; align-items: center; gap: .7rem; color: #fff; text-decoration: none; }
+.footer-brand img { width: 52px; height: 52px; object-fit: contain; padding: 3px; border-radius: 50%; background: #e6f7f5; }
+.footer-brand span { display: grid; line-height: 1; }.footer-brand strong { font-size: 1.3rem; }.footer-brand small { margin-top: .25rem; color: #82ded5; font-size: .62rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.footer-description { max-width: 390px; margin: 1.1rem 0 1.3rem; color: #b9d9dc; line-height: 1.7; font-size: .92rem; }
+.footer-socials { display: flex; gap: .6rem; }.footer-socials a { display: grid; width: 36px; height: 36px; place-items: center; border: 1px solid rgba(214,247,244,.28); border-radius: 10px; color: #d9f7f3; text-decoration: none; transition: .2s ease; }.footer-socials a:hover { color: #063f63; background: #91e1d7; transform: translateY(-2px); }
+.aquapet-footer h2 { margin: .5rem 0 1rem; color: #fff; font-size: .92rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }.aquapet-footer ul { margin: 0; padding: 0; list-style: none; }.aquapet-footer li + li { margin-top: .7rem; }.aquapet-footer li a, .aquapet-footer address a { color: #b9d9dc; font-size: .9rem; text-decoration: none; }.aquapet-footer li a:hover, .aquapet-footer address a:hover { color: #8ce5da; }
+.aquapet-footer address { display: grid; gap: .75rem; margin: 0; font-style: normal; }.aquapet-footer address span, .aquapet-footer address a { display: flex; align-items: center; gap: .6rem; }.aquapet-footer address i { width: 14px; color: #8ce5da; }
+.footer-bottom { padding: 1rem 0; border-top: 1px solid rgba(214,247,244,.15); color: #a7cdd1; font-size: .82rem; }.footer-bottom a { color: #a7cdd1; text-decoration: none; }.footer-bottom a:hover { color: #8ce5da; }.footer-bottom i { color: #ff9e9e; }

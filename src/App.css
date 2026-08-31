@@ -1,0 +1,30 @@
+
+:root {
+  --aqua-950: #063f63;
+  --aqua-800: #087d8b;
+  --aqua-600: #14a69b;
+  --aqua-100: #e6f7f5;
+  --ink: #16324f;
+  --muted: #6e8493;
+  --surface: #ffffff;
+  --line: #dcebed;
+}
+
+body { background: #f7fbfc; color: var(--ink); }
+.site-section { padding: 5rem 0; }
+.section-kicker { color: var(--aqua-800); font-size: .75rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+.section-heading { color: var(--ink); font-weight: 800; letter-spacing: -.04em; }
+.aqua-btn { border: 0; border-radius: 12px; background: linear-gradient(135deg, var(--aqua-800), var(--aqua-600)); color: #fff; font-weight: 700; padding: .8rem 1.15rem; box-shadow: 0 10px 20px rgba(8, 125, 139, .18); transition: .2s ease; }
+.aqua-btn:hover { background: var(--aqua-950); color: #fff; transform: translateY(-2px); }
+.aqua-btn-outline { border: 1px solid #a8d8d7; border-radius: 12px; background: #fff; color: var(--aqua-800); font-weight: 700; padding: .8rem 1.15rem; text-decoration: none; transition: .2s ease; }
+.aqua-btn-outline:hover { color: var(--aqua-950); background: var(--aqua-100); }
+.aqua-card { height: 100%; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; box-shadow: 0 12px 28px rgba(14, 71, 93, .06); transition: transform .25s ease, box-shadow .25s ease; }
+.aqua-card:hover { transform: translateY(-6px); box-shadow: 0 20px 36px rgba(14, 71, 93, .12); }
+.navbar { border-bottom: 1px solid #dcebed; box-shadow: 0 4px 18px rgba(14, 71, 93, .05); }
+.navbar .nav-link { color: #4b6676; font-weight: 650; }
+.navbar .nav-link:hover, .navbar .nav-link.active { color: var(--aqua-800); }
+.btn-primary { border-color: var(--aqua-800); background-color: var(--aqua-800); }
+.btn-primary:hover, .btn-primary:focus { border-color: var(--aqua-950); background-color: var(--aqua-950); }
+.btn-outline-primary { border-color: var(--aqua-800); color: var(--aqua-800); }
+.btn-outline-primary:hover { border-color: var(--aqua-800); background-color: var(--aqua-800); }
+.text-primary { color: var(--aqua-800) !important; }
